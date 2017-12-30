@@ -288,9 +288,6 @@ select,
 textarea {
 	color: #1a1a1a;
 	font-family: Merriweather, Georgia, serif;
-	font-size: 16px;
-	font-size: 1rem;
-	line-height: 1.75;
 }
 
 h1,
@@ -501,20 +498,11 @@ del {
 	opacity: 0.8;
 }
 
-table,
-th,
-td {
-	border: 1px solid #d1d1d1;
-}
-
 table {
 	border-collapse: separate;
 	border-spacing: 0;
-	border-width: 1px 0 0 1px;
 	margin: 0 0 1.75em;
 	table-layout: fixed;
-	/* Prevents HTML tables from becoming too wide */
-	width: 100%;
 }
 
 caption,
@@ -1679,8 +1667,8 @@ blockquote:after,
 .entry-content,
 .entry-footer,
 .page-content {
-	margin-right: 7.6923%;
-	margin-left: 7.6923%;
+	margin-right: 4%;
+	margin-left: 4%;
 }
 
 .entry-title {
@@ -2452,14 +2440,7 @@ body.search-no-results .page-header {
 }
 
 /* Make sure embeds and iframes fit their containers. */
-embed,
-iframe,
-object,
-video {
-	margin-bottom: 1.75em;
-	max-width: 100%;
-	vertical-align: middle;
-}
+
 
 p > embed,
 p > iframe,
@@ -3347,25 +3328,6 @@ p > video {
 		width: 100%;
 	}
 
-	.no-sidebar .entry-header,
-	.no-sidebar .entry-content,
-	.no-sidebar .entry-summary,
-	.no-sidebar .entry-footer,
-	.no-sidebar .comments-area,
-	.no-sidebar .image-navigation,
-	.no-sidebar .post-navigation,
-	.no-sidebar .pagination,
-	.no-sidebar .page-header,
-	.no-sidebar .page-content,
-	.no-sidebar .content-bottom-widgets {
-		margin-right: 15%;
-		margin-left: 15%;
-	}
-
-	.widecolumn {
-		padding-right: 15%;
-		padding-left: 15%;
-	}
 }
 
 
