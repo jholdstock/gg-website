@@ -1,0 +1,196 @@
+.site {
+	background-color: #efefef
+}
+
+mark,
+ins,
+button,
+button[disabled]:hover,
+button[disabled]:focus,
+input[type="button"],
+input[type="button"][disabled]:hover,
+input[type="button"][disabled]:focus,
+input[type="reset"],
+input[type="reset"][disabled]:hover,
+input[type="reset"][disabled]:focus,
+input[type="submit"],
+input[type="submit"][disabled]:hover,
+input[type="submit"][disabled]:focus,
+.menu-toggle.toggled-on,
+.menu-toggle.toggled-on:hover,
+.menu-toggle.toggled-on:focus,
+.pagination .prev,
+.pagination .next,
+.pagination .prev:hover,
+.pagination .prev:focus,
+.pagination .next:hover,
+.pagination .next:focus,
+.pagination .nav-links:before,
+.pagination .nav-links:after,
+.widget_calendar tbody a,
+.widget_calendar tbody a:hover,
+.widget_calendar tbody a:focus,
+.page-links a,
+.page-links a:hover,
+.page-links a:focus {
+	color: #efefef
+}
+
+@media screen and (min-width:56.875em) {
+	.main-navigation ul ul li {
+		background-color: #efefef
+	}
+
+	.main-navigation ul ul:after {
+		border-top-color: #efefef;
+		border-bottom-color: #efefef
+	}
+
+}
+
+.menu-toggle:hover,
+.menu-toggle:focus,
+a,
+.main-navigation a:hover,
+.main-navigation a:focus,
+.dropdown-toggle:hover,
+.dropdown-toggle:focus,
+.social-navigation a:hover:before,
+.social-navigation a:focus:before,
+.post-navigation a:hover .post-title,
+.post-navigation a:focus .post-title,
+.tagcloud a:hover,
+.tagcloud a:focus,
+.site-branding .site-title a:hover,
+.site-branding .site-title a:focus,
+.entry-title a:hover,
+.entry-title a:focus,
+.entry-footer a:hover,
+.entry-footer a:focus,
+.comment-metadata a:hover,
+.comment-metadata a:focus,
+.pingback .comment-edit-link:hover,
+.pingback .comment-edit-link:focus,
+.comment-reply-link,
+.comment-reply-link:hover,
+.comment-reply-link:focus,
+.required,
+.site-info a:hover,
+.site-info a:focus {
+	color: #dd9933
+}
+
+mark,
+ins,
+button:hover,
+button:focus,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+.pagination .prev:hover,
+.pagination .prev:focus,
+.pagination .next:hover,
+.pagination .next:focus,
+.widget_calendar tbody a,
+.page-links a:hover,
+.page-links a:focus {
+	background-color: #dd9933
+}
+
+input[type="date"]:focus,
+input[type="time"]:focus,
+input[type="datetime-local"]:focus,
+input[type="week"]:focus,
+input[type="month"]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+textarea:focus,
+.tagcloud a:hover,
+.tagcloud a:focus,
+.menu-toggle:hover,
+.menu-toggle:focus {
+	border-color: #dd9933
+}
+
+@media screen and (min-width:56.875em) {
+	.main-navigation li:hover > a,
+	.main-navigation li.focus > a {
+		color: #dd9933
+	}
+
+}
+
+p {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 300;
+	text-decoration: none;
+	text-transform: none
+}
+
+h1 {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 100;
+	text-decoration: none;
+	text-transform: uppercase
+}
+
+h2 {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 100;
+	text-decoration: none;
+	text-transform: none
+}
+
+h3 {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 100;
+	text-decoration: none;
+	text-transform: none
+}
+
+h4 {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 100;
+	text-decoration: none;
+	text-transform: none
+}
+
+h5 {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 100;
+	text-decoration: none;
+	text-transform: none
+}
+
+h6 {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 100;
+	text-decoration: none;
+	text-transform: none
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+ul {
+}
