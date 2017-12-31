@@ -1,6 +1,6 @@
 .site {
 	background-color: #00AFAB;
-	color:white ;
+	color: white;
 }
 
 mark,
@@ -128,14 +128,12 @@ textarea:focus,
 }
 
 p {
-	font-family: 'Lato';
 	font-style: normal;
 	font-weight: 300;
 	text-decoration: none;
 }
 
 h1 {
-	font-family: 'Lato';
 	font-style: normal;
 	font-weight: 100;
 	text-decoration: none;
@@ -143,41 +141,31 @@ h1 {
 }
 
 h2 {
-	font-family: 'Lato';
 	font-style: normal;
-	font-weight: 100;.h-spacer  {
-  width: 20px; 
-}
-.v-spacer  {
-  height: 20px; 
-}
+	font-weight: 100;
 	text-decoration: none;
 	text-align: center;
 }
 
 h3 {
-	font-family: 'Lato';
 	font-style: normal;
 	font-weight: 100;
 	text-decoration: none;
 }
 
 h4 {
-	font-family: 'Lato';
 	font-style: normal;
 	font-weight: 100;
 	text-decoration: none;
 }
 
 h5 {
-	font-family: 'Lato';
 	font-style: normal;
 	font-weight: 100;
 	text-decoration: none;
 }
 
 h6 {
-	font-family: 'Lato';
 	font-style: normal;
 	font-weight: 100;
 	text-decoration: none;
@@ -201,6 +189,7 @@ ul {
 #gg-main {
 	padding: 20px;
 }
+
 .entry-header {
 	text-align: center;
 }
@@ -218,45 +207,48 @@ ul {
 	padding-left: 4.5455%;
 }
 
-
 .social-navigation a {
-	color:white;
+	color: white;
 }
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width:470px) {
 	#header-gg {
-    	height: auto;
-    	width: 100%;
+		height: auto;
+		width: 100%;
 	}
+
 	.menu-toggle {
 		margin: auto;
 		margin-bottom: 35px;
 		margin-top: 15px;
 	}
+
 }
 
-.h-spacer  {
-  width: 20px; 
+.h-spacer {
+	width: 20px;
 }
-.v-spacer  {
-  height: 20px; 
+
+.v-spacer {
+	height: 20px;
 }
 
 #contact-table #fb-logo {
-    height: 25px;
-    width: 25px;
-    margin-left: 6px;
+	height: 25px;
+	width: 25px;
+	margin-left: 6px;
 }
 
 #contact-table a {
-	color:white;
+	color: white;
 }
 
 #contact-table a:hover {
-	color:#F6BDCD;
+	color: #F6BDCD;
 }
 
-#contact-table, .map {
+#contact-table,
+.map {
 	display: inline-block;
 }
 
@@ -274,7 +266,7 @@ ul {
 #services-wrapper {
 	display: flex;
 	justify-content: space-around;
-	flex-wrap: wrap;	
+	flex-wrap: wrap;
 }
 
 #services-wrapper h2 {
@@ -282,40 +274,41 @@ ul {
 	margin-bottom: 15px;
 }
 
-    #price-container table {
-    width: 90%;
-    margin:100px auto;
-    table-layout:fixed;
-    border-collapse: collapse;
-    }
+#price-container table {
+	width: 75%;
+	max-width: 450px;
+	margin: auto;
+	table-layout: fixed;
+	border-collapse: collapse;
+}
 
-    #price-container td {
-    padding:1em 0 0 0;
-    vertical-align:bottom;
-    background-image:radial-gradient(white 1px, #00AFAB 0px);
-    background-size: 8px 8px;
-    background-repeat:repeat-x;
-    background-position: left bottom;
-    }
-    
-        td span{
-    background-color:#00AFAB;
-    }
-    
-    #price-container td:first-child {
-    text-align: left;
-    font-weight: 700;
-    }
-    
-    #price-container td:first-child span{
-    padding-right:.25em;
-    }
+#price-container td {
+	padding: 1em 0 0 0;
+	vertical-align: bottom;
+	background-image: radial-gradient(white 1px, #00AFAB 0px);
+	background-size: 8px 8px;
+	background-repeat: repeat-x;
+	background-position: left bottom;
+}
 
-    #price-container td:last-child {
-    text-align:right;
-    width:3em;
-    }
-    
-    #price-container td:last-child span{
-    padding-left:.25em;
-    }
+#price-container td span {
+	background-color: #00AFAB;
+}
+
+#price-container td:first-child {
+	text-align: left;
+	font-weight: 700;
+}
+
+#price-container td:first-child span {
+	padding-right: .25em;
+}
+
+#price-container td:last-child {
+	text-align: right;
+	width: 3em;
+}
+
+#price-container td:last-child span {
+	padding-left: .25em;
+}
