@@ -265,3 +265,14 @@ ul {
 	justify-content: space-around;
 	flex-wrap: wrap;
 }
+
+.service {
+	display: inline-block;
+	width: 300px;
+}
+
+#services-wrapper {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;	
+}
