@@ -281,3 +281,41 @@ ul {
 	margin-top: 20px;
 	margin-bottom: 15px;
 }
+
+    #price-container table {
+    width: 90%;
+    margin:100px auto;
+    table-layout:fixed;
+    border-collapse: collapse;
+    }
+
+    #price-container td {
+    padding:1em 0 0 0;
+    vertical-align:bottom;
+    background-image:radial-gradient(white 1px, #00AFAB 0px);
+    background-size: 8px 8px;
+    background-repeat:repeat-x;
+    background-position: left bottom;
+    }
+    
+        td span{
+    background-color:#00AFAB;
+    }
+    
+    #price-container td:first-child {
+    text-align: left;
+    font-weight: 700;
+    }
+    
+    #price-container td:first-child span{
+    padding-right:.25em;
+    }
+
+    #price-container td:last-child {
+    text-align:right;
+    width:3em;
+    }
+    
+    #price-container td:last-child span{
+    padding-left:.25em;
+    }
