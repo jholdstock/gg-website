@@ -276,3 +276,8 @@ ul {
 	justify-content: space-around;
 	flex-wrap: wrap;	
 }
+
+#services-wrapper h2 {
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
